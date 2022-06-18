@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
-from .PySimpleGUI import *
-import tkinter as tk
-import _tkinter
+#from .PySimpleGUI import *
+#import tkinter as tk
+#import _tkinter
 
 layout = [[sg.Text("Welcome to Moumita's World")], [sg.Text('Please enter your Name')],
     [sg.Text('Name', size =(15, 1)), sg.InputText()], [sg.Text("", size=(15, 1), key='OUTPUT')], [sg.Button("OK")], [sg.Button("QUIT")], [sg.Image('D:\Alu\Test.png')]]
